@@ -1,0 +1,49 @@
+.header-cont{
+padding: 12px;
+color: #fff;
+background-color: #0095FF;
+}
+.search-cont{
+    margin-top: 15px;
+    display: inline-block;
+}
+.search-cont input{
+    border: none;
+    border-bottom: 1px solid #ddd;
+    padding-right: 50px;
+}
+.curr-results{
+    display: inline-block;
+    margin: 5px;    
+}
+.table-cont{
+    display: block;
+    overflow-x: auto;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+    margin: 30px 0;
+}
+tr,td,th{
+    border: 1px solid rgb(122, 206, 231);
+    padding: 10px 2px;
+}
+th{
+    cursor: pointer;
+} 
+th::before{
+content:"\25be";
+}
+.pagn-wrap{
+    width:100%;
+    text-align: center;
+}
+.pagn-btn{
+    padding: 5px 30px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+
+}
